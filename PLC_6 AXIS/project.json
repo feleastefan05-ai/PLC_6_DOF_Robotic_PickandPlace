@@ -1,0 +1,19 @@
+{
+  "version": 7,
+  "name": "6 axis",
+  "packages": [
+    "parts/oip.roller-conveyor",
+    "parts/oip.box",
+    "parts/oip.diffuse-sensor",
+    "parts/oip.belt-conveyor",
+    "parts/oip.six-axis-robot",
+    "parts/oip.push-button",
+    "parts/oip.pallet",
+    "parts/user.part-8"
+  ],
+  "scene": "scene.json",
+  "program": [
+    "plc/program.st"
+  ],
+  "stScanMs": 10
+}

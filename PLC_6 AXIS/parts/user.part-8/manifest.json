@@ -1,0 +1,31 @@
+{
+  "id": "user.part-8",
+  "name": "My Part 8",
+  "category": "Equipment",
+  "geometry": {
+    "kind": "rig",
+    "links": [
+      {
+        "name": "body",
+        "shape": {
+          "kind": "box",
+          "size": [
+            0.6,
+            0.6,
+            0.6
+          ]
+        },
+        "offset": [
+          -0.006520519029207694,
+          0.2965604974419573,
+          0.00801524583491764
+        ]
+      }
+    ],
+    "joints": []
+  },
+  "sdk": {
+    "level": 13,
+    "of": "v2:547:21tarizc65b"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "version": 4,
+  "parts": [
+    {
+      "id": "bld_1",
+      "name": "Building",
+      "locked": true,
+      "type": "building",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationY": 0,
+      "params": {
+        "lengthSections": 5,
+        "widthSections": 4,
+        "heightSections": 1,
+        "columnSpacing": 0,
+        "rules": [
+          {
+            "wall": "B",
+            "run": 1,
+            "gap": 1,
+            "count": 2,
+            "start": 1,
+            "doorCount": 1,
+            "trailer": true
+          },
+          {
+            "wall": "B",
+            "run": 1,
+            "gap": 1,
+            "count": 2,
+            "start": 24,
+            "doorCount": 1,
+            "trailer": true
+          },
+          {
+            "wall": "A",
+            "run": 1,
+            "gap": 2,
+            "count": 2,
+            "start": 32,
+            "doorCount": 1,
+            "trailer": true
+          },
+          {
+            "wall": "A",
+            "run": 1,
+            "gap": 2,
+            "count": 2,
+            "start": 28,
+            "doorCount": 1,
+            "trailer": true
+          },
+          {
+            "wall": "dock_door",
+            "run": 1,
+            "gap": 1,
+            "count": 1,
+            "start": 2,
+            "doorCount": 2,
+            "trailer": true
+          }
+        ],
+        "floorVisible": true,
+        "wallsVisible": true,
+        "roofVisible": true,
+        "brightness": 1,
+        "backgroundColor": "#9fb1c4"
+      }
+    },
+    {
+      "id": "pt_1",
+      "type": "part",
+      "packageId": "oip.six-axis-robot",
+      "position": [
+        4.334369201043878,
+        0,
+        -13.945211567406492
+      ],
+      "rotationY": 0,
+      "params": {
+        "speed": 120,
+        "accel": 720,
+        "scale": 1,
+        "toolSizeX": 0.5,
+        "toolSizeZ": 0.5,
+        "cupPitchX": 0.1,
+        "cupPitchZ": 0.1,
+        "cupMarginX": 0.05,
+        "cupMarginZ": 0.05,
+        "cupsEnabled": true,
+        "commandTag": "comand",
+        "executeTag": "execute",
+        "doneTag": "done",
+        "enableTag": "enable",
+        "gripperTag": "vaccum",
+        "in1Tag": "",
+        "in2Tag": "",
+        "in3Tag": "",
+        "in4Tag": "",
+        "out1Tag": "",
+        "out2Tag": "",
+        "out3Tag": "",
+        "out4Tag": "",
+        "waypoints": [
+          [
+            0,
+            -83,
+            90,
+            25,
+            75,
+            0
+          ],
+          [
+            100,
+            -5,
+            100,
+            60,
+            150,
+            0
+          ],
+          [
+            200,
+            -5,
+            90,
+            0,
+            140,
+            0
+          ]
+        ],
+        "waypointNames": "Home\nPick\nPlace",
+        "blendWaypoints": [],
+        "blendDeg": 12,
+        "jobs": [],
+        "jobNames": "",
+        "pose": [
+          [
+            0,
+            -45,
+            90,
+            25,
+            75,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}
